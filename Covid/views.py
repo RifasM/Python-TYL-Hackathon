@@ -2,10 +2,20 @@ from django.shortcuts import render, redirect
 import ast, json
 from django.http import JsonResponse, HttpResponse
 from Covid.settings import BASE_DIR
+import urllib.request
+from bs4 import BeautifulSoup
 
 
 def home(request):
-    return render(request, "home.html")
+    return render(request, "base.html")
+
+
+def india(request):
+    return render(request, "india.html")
+
+
+def karnataka(request):
+    return render(request, "karnataka.html")
 
 
 def positive(request):

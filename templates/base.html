@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TYL Hackathon</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+    body{
+        background-color: #2B2B2B;
+    }
+    #Googlemap {
+        margin: 5%;
+        height: 80%;
+        width: 50%;
+        position: absolute;
+       }
+</style>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{% url 'home' %}">Team Asterix</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'india' %}">India Overview</a></li>
+      <li><a href="{% url 'karnataka' %}">Karnataka Overview</a></li>
+      <li><a href="#">Important Links</a></li>
+    </ul>
+  </div>
+</nav>
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6" id="Googlemap"></div>
+        <div class="col-md-4" style="float: right; color: aliceblue; top: 150px; margin: 10%">
+            <table class="table table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Van Number</th>
+                  <th scope="col">Current Location</th>
+                  <th scope="col">Next Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Marathalli</td>
+                  <td>Sompura</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jayanagar</td>
+                  <td>None</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Hebbal</td>
+                  <td>None</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+
+<script>
+
+function initMap() {
+    var uluru = {lat: 12.9716, lng: 77.5946};
+    var map = new google.maps.Map(document.getElementById('Googlemap'), {zoom: 10, center: uluru});
+    var van1 = new google.maps.Marker({position: {lat: 12.9569, lng: 77.7011}, map: map, animation:google.maps.Animation.BOUNCE});
+    var van2 = new google.maps.Marker({position: {lat: 13.0354, lng: 77.5988}, map: map, animation:google.maps.Animation.BOUNCE});
+    var van3 = new google.maps.Marker({position: {lat: 12.9308, lng: 77.5838}, map: map, animation:google.maps.Animation.BOUNCE});
+    van1.setMap(map);
+    van2.setMap(map);
+    van3.setMap(map);
+    var flightPlanCoordinates = [
+          {lat: 12.9569, lng: 77.7011},
+          {lat: 12.8714, lng: 77.7667}
+        ];
+    var flightPath = new google.maps.Polyline({
+      path: flightPlanCoordinates,
+      geodesic: true,
+      strokeColor: '#FF0000',
+      strokeOpacity: 1.0,
+      strokeWeight: 2
+    });
+
+    var move = new google.maps.Marker({position: {lat: 12.8714, lng: 77.7667}, map: map});
+    move.setMap(map);
+
+    flightPath.setMap(map);
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script>
+{% endblock %}
+</body>
+</html>
