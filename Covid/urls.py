@@ -20,4 +20,11 @@ import Covid.views as view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', view.home, name="home"),
+    path('positive', view.positive, name="positive"),
+    path('negative', view.negative, name="negative"),
+    path('deaths', view.deaths, name="deaths"),
+    path('isolation', view.isolation, name="isolation"),
+    path('district', view.district, name="district"),
+    path('discharged', view.discharged, name="discharged"),
+    path('ward', view.wards, name="wards"),
 ]
