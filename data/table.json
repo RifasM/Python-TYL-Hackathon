@@ -1,0 +1,804 @@
+[
+  {
+    "totdeath": 1,
+    "id": "Belgaum",
+    "name": "Belgaum",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "RAYBAG",
+        "name": "RAYBAG Taluk",
+        "totnumbers": 2,
+        "totdischarged": 2,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "BELAGAVI",
+        "name": "BELAGAVI Taluk",
+        "totnumbers": 5,
+        "totdischarged": 4,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Hukkeri",
+        "name": "Hukkeri",
+        "totnumbers": 3,
+        "totdischarged": 0,
+        "totisolated": 3
+      },
+      {
+        "totdeath": 1,
+        "id": "Belagavi",
+        "name": "Belagavi",
+        "totnumbers": 61,
+        "totdischarged": 18,
+        "totisolated": 42
+      },
+      {
+        "totdeath": 0,
+        "id": "Chikkodi",
+        "name": "Chikkodi",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Kudachi",
+        "name": "Kudachi",
+        "totnumbers": 13,
+        "totdischarged": 9,
+        "totisolated": 4
+      }
+    ],
+    "totnumbers": 85,
+    "totdischarged": 34,
+    "totisolated": 50
+  },
+  {
+    "totdeath": 0,
+    "id": "Bellary",
+    "name": "Bellary",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "HOSAPETE",
+        "name": "HOSAPETE Taluk",
+        "totnumbers": 2,
+        "totdischarged": 1,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "SIRUGUPPA",
+        "name": "SIRUGUPPA Taluk",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Kudalgi",
+        "name": "Kudalgi",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Bellary",
+        "name": "Bellary",
+        "totnumbers": 3,
+        "totdischarged": 1,
+        "totisolated": 2
+      },
+      {
+        "totdeath": 0,
+        "id": "Hospet",
+        "name": "Hospet",
+        "totnumbers": 8,
+        "totdischarged": 8,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 15,
+    "totdischarged": 11,
+    "totisolated": 4
+  },
+  {
+    "totdeath": 1,
+    "id": "Bidar",
+    "name": "Bidar",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "Basavakalyan",
+        "name": "Basavakalyan",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "Bidar",
+        "name": "Bidar",
+        "totnumbers": 25,
+        "totdischarged": 13,
+        "totisolated": 11
+      }
+    ],
+    "totnumbers": 26,
+    "totdischarged": 14,
+    "totisolated": 11
+  },
+  {
+    "totdeath": 3,
+    "id": "Bijapur",
+    "name": "Bijapur",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "VIJAYAPURA",
+        "name": "VIJAYAPURA Taluk",
+        "totnumbers": 5,
+        "totdischarged": 5,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 3,
+        "id": "Vijaypura",
+        "name": "Vijaypura",
+        "totnumbers": 43,
+        "totdischarged": 19,
+        "totisolated": 21
+      }
+    ],
+    "totnumbers": 48,
+    "totdischarged": 24,
+    "totisolated": 21
+  },
+  {
+    "totdeath": 0,
+    "id": "Chitradurga",
+    "name": "Chitradurga",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "CHITRADURGA",
+        "name": "CHITRADURGA Taluk",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Chitradurga",
+        "name": "Chitradurga",
+        "totnumbers": 6,
+        "totdischarged": 1,
+        "totisolated": 5
+      }
+    ],
+    "totnumbers": 7,
+    "totdischarged": 1,
+    "totisolated": 6
+  },
+  {
+    "totdeath": 3,
+    "id": "Dakshina Kannada",
+    "name": "Dakshina Kannada",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "BELTANGADI",
+        "name": "BELTANGADI Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "BANTVAL",
+        "name": "BANTVAL Taluk",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "PUTTUR",
+        "name": "PUTTUR Taluk",
+        "totnumbers": 2,
+        "totdischarged": 1,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "SULYA",
+        "name": "SULYA Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 2,
+        "id": "Bantawala",
+        "name": "Bantawala",
+        "totnumbers": 9,
+        "totdischarged": 1,
+        "totisolated": 6
+      },
+      {
+        "totdeath": 0,
+        "id": "Mangalore",
+        "name": "Mangalore",
+        "totnumbers": 15,
+        "totdischarged": 7,
+        "totisolated": 8
+      }
+    ],
+    "totnumbers": 29,
+    "totdischarged": 11,
+    "totisolated": 15
+  },
+  {
+    "totdeath": 4,
+    "id": "Davanagere",
+    "name": "Davanagere",
+    "_children": [
+      {
+        "totdeath": 4,
+        "id": "Davanagere",
+        "name": "Davanagere",
+        "totnumbers": 67,
+        "totdischarged": 2,
+        "totisolated": 61
+      }
+    ],
+    "totnumbers": 67,
+    "totdischarged": 2,
+    "totisolated": 61
+  },
+  {
+    "totdeath": 0,
+    "id": "Dharwad",
+    "name": "Dharwad",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "Hubli Dharwad",
+        "name": "Hubli Dharwad",
+        "totnumbers": 12,
+        "totdischarged": 7,
+        "totisolated": 5
+      }
+    ],
+    "totnumbers": 12,
+    "totdischarged": 7,
+    "totisolated": 5
+  },
+  {
+    "totdeath": 1,
+    "id": "Gadag",
+    "name": "Gadag",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "GADAG",
+        "name": "GADAG Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "Gadag",
+        "name": "Gadag",
+        "totnumbers": 4,
+        "totdischarged": 0,
+        "totisolated": 3
+      }
+    ],
+    "totnumbers": 5,
+    "totdischarged": 1,
+    "totisolated": 3
+  },
+  {
+    "totdeath": 6,
+    "id": "Kalaburagi",
+    "name": "Kalaburagi",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "KALABURAGI",
+        "name": "KALABURAGI Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Chincholi",
+        "name": "Chincholi",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 6,
+        "id": "Kalaburagi",
+        "name": "Kalaburagi",
+        "totnumbers": 63,
+        "totdischarged": 28,
+        "totisolated": 29
+      },
+      {
+        "totdeath": 0,
+        "id": "Shabhad",
+        "name": "Shabhad",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Wadi",
+        "name": "Wadi",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 68,
+    "totdischarged": 32,
+    "totisolated": 30
+  },
+  {
+    "totdeath": 0,
+    "id": "Haveri",
+    "name": "Haveri",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "Haveri",
+        "name": "Haveri",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Savanur",
+        "name": "Savanur",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      }
+    ],
+    "totnumbers": 2,
+    "totdischarged": 0,
+    "totisolated": 2
+  },
+  {
+    "totdeath": 0,
+    "id": "Kodagu",
+    "name": "Kodagu",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "Madikeri",
+        "name": "Madikeri",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 1,
+    "totdischarged": 1,
+    "totisolated": 0
+  },
+  {
+    "totdeath": 0,
+    "id": "Mandya",
+    "name": "Mandya",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "MALVALLI",
+        "name": "MALVALLI Taluk",
+        "totnumbers": 4,
+        "totdischarged": 4,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Mandya",
+        "name": "Mandya",
+        "totnumbers": 9,
+        "totdischarged": 3,
+        "totisolated": 6
+      },
+      {
+        "totdeath": 0,
+        "id": "Malavalli",
+        "name": "Malavalli",
+        "totnumbers": 13,
+        "totdischarged": 7,
+        "totisolated": 6
+      },
+      {
+        "totdeath": 0,
+        "id": "Krishnarajpet",
+        "name": "Krishnarajpet",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Nagamangala",
+        "name": "Nagamangala",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 1
+      }
+    ],
+    "totnumbers": 28,
+    "totdischarged": 14,
+    "totisolated": 14
+  },
+  {
+    "totdeath": 0,
+    "id": "Mysore",
+    "name": "Mysore",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "MYSURU",
+        "name": "MYSURU Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "NANJANGUD",
+        "name": "NANJANGUD Taluk",
+        "totnumbers": 13,
+        "totdischarged": 13,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Nanjangudu",
+        "name": "Nanjangudu",
+        "totnumbers": 44,
+        "totdischarged": 40,
+        "totisolated": 4
+      },
+      {
+        "totdeath": 0,
+        "id": "Mysuru",
+        "name": "Mysuru",
+        "totnumbers": 31,
+        "totdischarged": 29,
+        "totisolated": 2
+      }
+    ],
+    "totnumbers": 89,
+    "totdischarged": 83,
+    "totisolated": 6
+  },
+  {
+    "totdeath": 2,
+    "id": "Tumkur",
+    "name": "Tumkur",
+    "_children": [
+      {
+        "totdeath": 1,
+        "id": "Tumkur",
+        "name": "Tumkur",
+        "totnumbers": 9,
+        "totdischarged": 0,
+        "totisolated": 8
+      },
+      {
+        "totdeath": 1,
+        "id": "Sira",
+        "name": "Sira",
+        "totnumbers": 2,
+        "totdischarged": 1,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 11,
+    "totdischarged": 1,
+    "totisolated": 8
+  },
+  {
+    "totdeath": 0,
+    "id": "Udupi",
+    "name": "Udupi",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "KARKAL",
+        "name": "KARKAL Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Udupi",
+        "name": "Udupi",
+        "totnumbers": 3,
+        "totdischarged": 3,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 4,
+    "totdischarged": 4,
+    "totisolated": 0
+  },
+  {
+    "totdeath": 0,
+    "id": "Uttara Kannada",
+    "name": "Uttara Kannada",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "BHATKAL",
+        "name": "BHATKAL Taluk",
+        "totnumbers": 4,
+        "totdischarged": 4,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Karwar",
+        "name": "Karwar",
+        "totnumbers": 2,
+        "totdischarged": 1,
+        "totisolated": 1
+      },
+      {
+        "totdeath": 0,
+        "id": "Bhatkal",
+        "name": "Bhatkal",
+        "totnumbers": 26,
+        "totdischarged": 6,
+        "totisolated": 20
+      }
+    ],
+    "totnumbers": 32,
+    "totdischarged": 11,
+    "totisolated": 21
+  },
+  {
+    "totdeath": 2,
+    "id": "Chikkaballapura",
+    "name": "Chikkaballapura",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "CHIKBALLAPUR",
+        "name": "CHIKBALLAPUR Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "GAURIBIDANUR",
+        "name": "GAURIBIDANUR Taluk",
+        "totnumbers": 6,
+        "totdischarged": 6,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "Gauribidanur",
+        "name": "Gauribidanur",
+        "totnumbers": 5,
+        "totdischarged": 4,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "Chickaballapura",
+        "name": "Chickaballapura",
+        "totnumbers": 10,
+        "totdischarged": 1,
+        "totisolated": 8
+      }
+    ],
+    "totnumbers": 22,
+    "totdischarged": 12,
+    "totisolated": 8
+  },
+  {
+    "totdeath": 1,
+    "id": "Bagalkot",
+    "name": "Bagalkot",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "BAGALKOT",
+        "name": "BAGALKOT Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "JAMKHANDI",
+        "name": "JAMKHANDI Taluk",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "MUDHOL",
+        "name": "MUDHOL Taluk",
+        "totnumbers": 2,
+        "totdischarged": 2,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Badami",
+        "name": "Badami",
+        "totnumbers": 16,
+        "totdischarged": 0,
+        "totisolated": 16
+      },
+      {
+        "totdeath": 1,
+        "id": "Bagalkot",
+        "name": "Bagalkot",
+        "totnumbers": 16,
+        "totdischarged": 11,
+        "totisolated": 4
+      },
+      {
+        "totdeath": 0,
+        "id": "Jamakhandi",
+        "name": "Jamakhandi",
+        "totnumbers": 8,
+        "totdischarged": 2,
+        "totisolated": 6
+      },
+      {
+        "totdeath": 0,
+        "id": "Mudhol",
+        "name": "Mudhol",
+        "totnumbers": 7,
+        "totdischarged": 1,
+        "totisolated": 6
+      }
+    ],
+    "totnumbers": 51,
+    "totdischarged": 18,
+    "totisolated": 32
+  },
+  {
+    "totdeath": 6,
+    "id": "Bangalore urban",
+    "name": "Bangalore urban",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "BBMP YELAHANKA Zone",
+        "name": "BBMP YELAHANKA Zone",
+        "totnumbers": 9,
+        "totdischarged": 9,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "BBMP DASARAHALLI Zone",
+        "name": "BBMP DASARAHALLI Zone",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "BBMP RR NAGARA Zone",
+        "name": "BBMP RR NAGARA Zone",
+        "totnumbers": 1,
+        "totdischarged": 0,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 1,
+        "id": "BBMP EAST Zone",
+        "name": "BBMP EAST Zone",
+        "totnumbers": 27,
+        "totdischarged": 18,
+        "totisolated": 8
+      },
+      {
+        "totdeath": 0,
+        "id": "BBMP MAHADEVAPURA Zone",
+        "name": "BBMP MAHADEVAPURA Zone",
+        "totnumbers": 13,
+        "totdischarged": 13,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "BBMP WEST Zone",
+        "name": "BBMP WEST Zone",
+        "totnumbers": 33,
+        "totdischarged": 17,
+        "totisolated": 16
+      },
+      {
+        "totdeath": 4,
+        "id": "BBMP SOUTH Zone",
+        "name": "BBMP SOUTH Zone",
+        "totnumbers": 63,
+        "totdischarged": 34,
+        "totisolated": 24
+      },
+      {
+        "totdeath": 0,
+        "id": "BBMP BOMMANAHALLI Zone",
+        "name": "BBMP BOMMANAHALLI Zone",
+        "totnumbers": 40,
+        "totdischarged": 6,
+        "totisolated": 34
+      },
+      {
+        "totdeath": 0,
+        "id": "Anekal",
+        "name": "Anekal",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Bommasandra",
+        "name": "Bommasandra",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 189,
+    "totdischarged": 100,
+    "totisolated": 82
+  },
+  {
+    "totdeath": 0,
+    "id": "Bangalore Rural",
+    "name": "Bangalore Rural",
+    "_children": [
+      {
+        "totdeath": 0,
+        "id": "HOSKOTE",
+        "name": "HOSKOTE Taluk",
+        "totnumbers": 2,
+        "totdischarged": 2,
+        "totisolated": 0
+      },
+      {
+        "totdeath": 0,
+        "id": "Doddaballapura",
+        "name": "Doddaballapura",
+        "totnumbers": 1,
+        "totdischarged": 1,
+        "totisolated": 0
+      }
+    ],
+    "totnumbers": 3,
+    "totdischarged": 3,
+    "totisolated": 0
+  }
+]
