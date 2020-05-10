@@ -3,7 +3,7 @@ import ast
 from django.http import JsonResponse, HttpResponse
 from Covid.settings import BASE_DIR
 from geopy.geocoders import Nominatim
-from random import randrange, shuffle
+from random import randrange, shuffle, choices
 import datetime
 import json
 
@@ -12,14 +12,19 @@ noncont = ["Shimoga", "Ramanagara", "Kolar", "Koppal", "Gulbarga", "Raichuru",
 
 move = []
 current = []
+key = []
+value = []
+creation = True
 
 
 def create():
-    key = []
+    global creation
+    creation = False
     with open(BASE_DIR+'/data/mapping.json') as file:
         f = json.loads(file.read())
         for k, v in f.items():
             key.append(k)
+            value.append(v)
     shuffle(key)
     [current.append(key[i]) for i in range(3)]
     shuffle(noncont)
@@ -35,7 +40,8 @@ def random_date(start, l):
 
 
 def home(request):
-    create()
+    if creation:
+        create()
     geolocator = Nominatim(user_agent="tyl")
 
     locations = [geolocator.geocode(a) for a in current]
@@ -64,7 +70,18 @@ def home(request):
             movt.append("None")
 
     locs = zip(locations, next_location, movt)
-    return render(request, "base.html", {'areas': areas, 'locs': locs, 'narea': narea, 'nloc': nloc})
+
+    data = zip(key, value)
+    van_data = zip(choices(noncont, k=randrange(len(noncont))),
+                   choices(noncont, k=randrange(len(noncont))),
+                   choices(noncont, k=randrange(len(noncont))))
+
+    return render(request, "base.html", {'areas': areas,
+                                         'locs': locs,
+                                         'narea': narea,
+                                         'nloc': nloc,
+                                         'data': data,
+                                         'van_data': van_data})
 
 
 def india(request):

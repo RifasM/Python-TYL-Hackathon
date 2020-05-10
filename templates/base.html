@@ -61,13 +61,55 @@
         </div>
     </div>
 
+    <div class="row">
+        <div style="color: aliceblue; margin-left: 5%; margin-right: auto; margin-top: 200px;" class="col-md-5 col-sm-5">
+            <table class="table table-dark" >
+                <thead>
+                    <tr>
+                      <th scope="col">Ward</th>
+                      <th scope="col">Current Positive</th>
+                    </tr>
+              </thead>
+              <tbody>
+              {% for k, v in data %}
+                    <tr>
+                      <th scope="col">{{ k }}</th>
+                      <th scope="col">{{ v}}</th>
+                    </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+        </div>
+        <div style="color: aliceblue; margin-left: auto%; margin-right: auto; margin-top: 200px;" class="col-md-5 col-sm-5">
+        <h4>Possible locations for vans sorted by priority</h4>
+            <table class="table table-dark" >
+                <thead>
+                    <tr>
+                      <th scope="col">Van 1</th>
+                      <th scope="col">Van 2</th>
+                      <th scope="col">Van 3</th>
+                    </tr>
+              </thead>
+              <tbody>
+              {% for v1, v2,v3 in van_data %}
+                    <tr>
+                      <th scope="col">{{ v1 }}</th>
+                      <th scope="col">{{ v2 }}</th>
+                      <th scope="col">{{ v3 }}</th>
+                    </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+        </div>
+    </div>
+
 <script>
 var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var labelIndex = 0;
 
 function initMap() {
     var uluru = {lat: 12.9716, lng: 77.5946};
-    var map = new google.maps.Map(document.getElementById('Googlemap'), {zoom: 10, center: uluru});
+    var map = new google.maps.Map(document.getElementById('Googlemap'), {zoom: 7, center: uluru});
     {% for lat, long in areas %}
     var van = new google.maps.Marker({position: {lat: {{ lat }}, lng: {{ long }} },
         map: map,
