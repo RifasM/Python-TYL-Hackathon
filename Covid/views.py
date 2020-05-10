@@ -1,13 +1,70 @@
 from django.shortcuts import render, redirect
-import ast, json
+import ast
 from django.http import JsonResponse, HttpResponse
 from Covid.settings import BASE_DIR
-import urllib.request
-from bs4 import BeautifulSoup
+from geopy.geocoders import Nominatim
+from random import randrange, shuffle
+import datetime
+import json
+
+noncont = ["Shimoga", "Ramanagara", "Kolar", "Koppal", "Gulbarga", "Raichuru",
+        "Yadagiri", "Chamarajanagara", "Chikmagalur", "Hassan", "Kodagu", "Udupi"]
+
+move = []
+current = []
+
+
+def create():
+    key = []
+    with open(BASE_DIR+'/data/mapping.json') as file:
+        f = json.loads(file.read())
+        for k, v in f.items():
+            key.append(k)
+    shuffle(key)
+    [current.append(key[i]) for i in range(3)]
+    shuffle(noncont)
+    [move.append(noncont[i]) for i in range(3)]
+
+
+def random_date(start, l):
+    cur = start
+    while l >= 0:
+        curr = cur + datetime.timedelta(hours=randrange(24))
+        yield curr
+        l-=1
 
 
 def home(request):
-    return render(request, "base.html")
+    create()
+    geolocator = Nominatim(user_agent="tyl")
+
+    locations = [geolocator.geocode(a) for a in current]
+    next_location = [geolocator.geocode(a) for a in move]
+
+    clatitudes = [i.latitude for i in locations]
+    clongitudes = [i.longitude for i in locations]
+
+    nlatitudes = [i.latitude for i in next_location]
+    nlongitudes = [i.longitude for i in next_location]
+
+    areas = zip(clatitudes, clongitudes)
+    narea = zip(nlatitudes, nlongitudes)
+
+    nloc = zip(clatitudes, clongitudes, nlatitudes, nlongitudes)
+
+    startDate = datetime.datetime.now()
+
+    movt = []
+    for x in random_date(startDate, len(next_location)-1):
+        movt.append(x.strftime("%d/%m/%y %H:%M"))
+
+    if not len(locations) == len(next_location):
+        for i in range(len(next_location)-1, 3):
+            next_location.append("None")
+            movt.append("None")
+
+    locs = zip(locations, next_location, movt)
+    return render(request, "base.html", {'areas': areas, 'locs': locs, 'narea': narea, 'nloc': nloc})
 
 
 def india(request):
